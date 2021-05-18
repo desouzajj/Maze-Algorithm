@@ -1,0 +1,25 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x $       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxx xx xxxxxx $                $ xxxx
+xxxxxx xx xxxxxxxxxxxxxxxxx xxxxxxxxxxxx
+xxxxxx xx xxxxxxx$xxxxxxxxx xxxxxxxxxxxx
+xxxxxx xx xxxxxx            xxxxxxxxxxxx
+xxxxxx xx xxxxxxxxxxxxxxxxx xxxxxxxxxxxx
+xxxxxx xx         $         xxxxxxxxxxxx
+xxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx
+xxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx
+xxxxxx xxxxxxxxxxxxxxxxxx       $ xxxxxx
+xxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx
+xxxxxx xxxxxxx $          xxxxxxxxxxxxxx
+xxxxxx xxxxxxxxxxxxxxxxxx        $ xxxxx
+xxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx
+xxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx
+xxxxx $                                P
+xxxxxx xxxxxx xxxxxxxxxxx xxxxxxxxxxxxxx
+xxxxxx xxxxxx xxxxxxxxxxx$xxxxxxxxxxxxxx
+xxxxxx   $ xx xxxxxx xxxx xxxxxxxxxxxxxx
+xxxxxx xxxxxx xxxxxx$xxxxxxxxxxxxxxxxxxx
+x $    xxxxxx xxxxxx xxxxxxxxxxxxxxxxxxx
+xxxxxx xxxxxx           $ xxxxxxxxxxxxxx
+xxxxxx   $ xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
