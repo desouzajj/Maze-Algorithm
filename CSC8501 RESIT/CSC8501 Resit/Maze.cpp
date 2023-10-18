@@ -105,12 +105,7 @@ void Maze::AStar(Point start, Point end) {
 			int g = temp.g + 1;
 			int f = h + g;
 
-			//if (f < bestnode.f)
-			//{
-			//	bestnode.f = f;
-			//	bestnode.g = g;
-			//	bestnode.pos = next;
-			//}
+
 
 			openlist.push_back({ g, f, next });
 			backtrack.insert(pair<Point, Point>(next, temp.pos));
