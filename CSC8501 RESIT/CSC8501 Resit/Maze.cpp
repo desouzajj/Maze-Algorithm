@@ -75,15 +75,16 @@ bool Maze::checkmaze(Point p) {
 	return (p.x < width && p.x >= 0) && (p.y < height && p.y >= 0);
 }
 
-void Maze::AStar(Point start, Point end) {
+void Maze::AStar(Point start, Point end)
+{
 	path.clear();
 	vector <Node> openlist;
 	set <Point> closelist;
 	map <Point, Point> backtrack;
-
 	openlist.push_back({ 0,0, player.getposition() });
 
-	while (!openlist.empty()) {
+	while (!openlist.empty()) 
+	{
 		sort(openlist.begin(), openlist.end());
 		Node temp = *openlist.begin();
 		Node bestnode;
@@ -94,7 +95,8 @@ void Maze::AStar(Point start, Point end) {
 		if (temp.pos.x == end.x && temp.pos.y == end.y) 
 		break;
 		Point direction [4] = { {1,0}, {-1, 0 }, {0, 1}, {0, -1} };
-		for (int x = 0; x < 4; x++) {
+		for (int x = 0; x < 4; x++) 
+		{
 			Point next;
 			next.x = temp.pos.x + direction[x].x;
 			next.y = temp.pos.y + direction[x].y;
@@ -104,21 +106,13 @@ void Maze::AStar(Point start, Point end) {
 			int h = Heuristic(next, end);
 			int g = temp.g + 1;
 			int f = h + g;
-
-
-
 			openlist.push_back({ g, f, next });
 			backtrack.insert(pair<Point, Point>(next, temp.pos));
-	
-
-		}
-		
+		}		
 	}
 	Point step = end;
-	while (step.x != start.x || step.y != start.y) {
-		
-
-
+	while (step.x != start.x || step.y != start.y) 
+	{
 		path.push_back(step);
 		step = backtrack[step];		
 	}
